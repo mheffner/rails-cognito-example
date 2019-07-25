@@ -5,11 +5,28 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <link rel="stylesheet" href="https://cdn.rawgit.com/Chalarangelo/mini.css/v3.0.1/dist/mini-default.min.css">
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container">
+      <header>
+        <a href="#" class="logo">Rails Cognito Example</a>
+      </header>
+        <% if (!@is_signed_in) %>
+          <a href="<%= signin_path %>" class="button">Sign In</a>
+          <a href="<%= signup_path %>" class="button">Sign Up</a>
+        <% else %>
+          <a href="<%= signout_path %>" class="button">Sign Out</a>
+        <% end %>
+      <div class="container">
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>

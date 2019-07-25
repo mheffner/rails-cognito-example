@@ -1,0 +1,7 @@
+<h2>Signed in</h2>
+<ul>
+  <li>Email: <mark><%= @current_user.email %></mark></li>
+  <li>ID Token Subject: <mark><%= @current_user.subscriber %></mark></li>
+  <li>ID Token Issued: <mark><%= Time.at(@cognito_session.issued_time).utc %></mark></li>
+  <li>ID Token Expiration: <mark><%= Time.at(@cognito_session.expire_time).utc %></mark></li>
+</ul>
