@@ -38,6 +38,9 @@ gem 'jbuilder', '~> 2.5'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+# CVE-2019-5477
+gem 'nokogiri', '>= 1.10.4'
+
 group :production do
   gem 'pg', '1.1.4'
 end
