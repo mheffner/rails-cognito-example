@@ -5,7 +5,7 @@ ruby '2.6.3'
 
 gem 'activerecord-session_store', '~> 1.1.3'
 gem 'excon', '~> 0.65.0'
-gem 'json-jwt', '~> 1.10.2'
+gem 'json-jwt', '~> 1.11.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
