@@ -4,7 +4,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.3'
 
 gem 'activerecord-session_store', '~> 1.1.3'
-gem 'excon', '~> 0.65.0'
+gem 'excon', '~> 0.71.0'
 gem 'json-jwt', '~> 1.11.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
