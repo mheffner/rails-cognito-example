@@ -8,7 +8,7 @@ gem 'excon', '~> 0.71.0'
 gem 'json-jwt', '~> 1.11.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2.3'
+gem 'rails', '~> 5.2.4'
 # Use Puma as the app server
 gem 'puma', '~> 3.12'
 # Use SCSS for stylesheets
