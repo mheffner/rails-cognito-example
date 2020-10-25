@@ -37,7 +37,7 @@ in the sign up form. The email will act as the username in our setup.
 
 ![User Attributes](/contrib/screenshots/screenshot_3.png?raw=true "User Attributes")
 
-We need at least on app client for our web app to talk to the
+We need at least one app client for our web app to talk to the
 API. We'll need to lookup auth codes so enable 'Generate client
 secret'. The name doesn't really matter so pick anything.
 
