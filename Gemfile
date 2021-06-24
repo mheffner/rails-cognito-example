@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.3'
 
-gem 'activerecord-session_store', '~> 1.1.3'
+gem 'activerecord-session_store', '~> 2.0.0'
 gem 'excon', '~> 0.71.0'
 gem 'json-jwt', '~> 1.11.0'
 
